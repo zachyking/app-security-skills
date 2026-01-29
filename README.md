@@ -52,7 +52,7 @@ This plugin provides **proactive** security guidance that:
 
 ```bash
 # Clone the repository
-git clone https://github.com/zachyking/secure-dev-skills.git
+git clone https://github.com/zachyking/app-security-skills.git
 ```
 
 ### Load During Development
@@ -60,7 +60,7 @@ git clone https://github.com/zachyking/secure-dev-skills.git
 Use the `--plugin-dir` flag to test the plugin:
 
 ```bash
-claude --plugin-dir /path/to/secure-dev-skills
+claude --plugin-dir /path/to/app-security-skills
 ```
 
 ### Install via Marketplace
@@ -74,7 +74,7 @@ If this plugin is published to a marketplace, install with:
 Or add the marketplace URL to your Claude Code configuration first:
 
 ```bash
-/plugin marketplace add https://github.com/zachyking/secure-dev-skills
+/plugin marketplace add https://github.com/zachyking/app-security-skills
 ```
 
 ### Verify Installation
