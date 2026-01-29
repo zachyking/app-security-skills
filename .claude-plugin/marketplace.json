@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "secure-dev",
-      "source": ".",
+      "source": "./",
       "description": "Proactive security guidance for AI-assisted code generation",
       "version": "1.0.0"
     }
