@@ -6,7 +6,10 @@
   "plugins": [
     {
       "name": "secure-dev",
-      "source": "./",
+      "source": {
+        "source": "github",
+        "repo": "zachyking/app-security-skills"
+      },
       "description": "Proactive security guidance for AI-assisted code generation",
       "version": "1.0.0"
     }
