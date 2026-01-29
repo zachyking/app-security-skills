@@ -1,18 +1,14 @@
 {
   "name": "secure-dev-skills",
-  "description": "Security-focused plugins for Claude Code",
   "owner": {
     "name": "zachyking"
   },
   "plugins": [
     {
       "name": "secure-dev",
+      "source": ".",
       "description": "Proactive security guidance for AI-assisted code generation",
-      "version": "1.0.0",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/zachyking/app-security-skills"
-      }
+      "version": "1.0.0"
     }
   ]
 }
