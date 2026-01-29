@@ -48,33 +48,28 @@ This plugin provides **proactive** security guidance that:
 
 ## Installation
 
-### From GitHub
+### Option 1: Add as Marketplace (Recommended)
+
+In Claude Code, run:
+
+```
+/plugin marketplace add https://github.com/zachyking/app-security-skills
+```
+
+Then install the plugin:
+
+```
+/plugin install secure-dev
+```
+
+### Option 2: Clone and Load Locally
 
 ```bash
 # Clone the repository
 git clone https://github.com/zachyking/app-security-skills.git
-```
 
-### Load During Development
-
-Use the `--plugin-dir` flag to test the plugin:
-
-```bash
+# Run Claude Code with the plugin
 claude --plugin-dir /path/to/app-security-skills
-```
-
-### Install via Marketplace
-
-If this plugin is published to a marketplace, install with:
-
-```bash
-/plugin install secure-dev
-```
-
-Or add the marketplace URL to your Claude Code configuration first:
-
-```bash
-/plugin marketplace add https://github.com/zachyking/app-security-skills
 ```
 
 ### Verify Installation

@@ -1,0 +1,12 @@
+{
+  "name": "Secure Dev Skills Marketplace",
+  "description": "Security-focused plugins for Claude Code",
+  "plugins": [
+    {
+      "name": "secure-dev",
+      "description": "Proactive security guidance for AI-assisted code generation",
+      "version": "1.0.0",
+      "path": "."
+    }
+  ]
+}
