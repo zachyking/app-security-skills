@@ -1,0 +1,16 @@
+{
+  "name": "secure-dev",
+  "description": "Proactive security guidance for AI-assisted code generation. Helps prevent the 40-62% of AI-generated code that contains security flaws.",
+  "version": "1.0.0",
+  "author": {
+    "name": "zachyking"
+  },
+  "repository": "https://github.com/zachyking/secure-dev-skills",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "appsec",
+    "secure-coding",
+    "owasp"
+  ]
+}
